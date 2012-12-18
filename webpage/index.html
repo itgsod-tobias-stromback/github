@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>My Website</title>
+	<script type="text/javascript" src="./js/ind.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/ind.css">
+</head>
+<body>
+	<table id="menu">
+		<tr>
+			<td><a id="link" href="javascript:calc_toggle()">Calculator</a></td><td><a id="link" href="javascript:popup_toggle()">PopUp</a></td><td><a href="javascript:confirm_toggle()">Confirm</a></td>
+		</tr>
+	</table>
+	<div id="canvas">
+		<form name="calc" id="calc">
+			<div id="center">
+			Number 1<br /><input type="text" name="num1"><br />
+			Number 2<br /><input type="text" name="num2"><br />
+			Result<br /><input type="text" name="result"><br />
+			<input id="method" type="button" onclick="add()" value="+"><input id="method" type="button" onclick="sub()" value="-"><input id="method" type="button" onclick="mult()" value="*"><input id="method" type="button" onclick="divide()" value="/"><input id="method" type="button" onclick="formReset()" value="C"><input id="inc1" type="button" onclick="increase1()" value="&uarr;"><input id="dec1" type="button" onclick="decrease1()" value="&darr;"><input id="inc2" type="button" onclick="increase2()" value="&uarr;"><input id="dec2" type="button" onclick="decrease2()" value="&darr;">
+			</div>
+		</form>
+		<form name="popup" id="popup">
+			<div id="center">
+				<input type="button" name="popup" onclick="popmsg()" value="PopUp">
+			</div>
+		</form>
+		<form name="confirm" id="confirm">
+			<div id="center">
+				<input type="button" name="confirm" onclick="confirmmsg()" value="Confirm">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

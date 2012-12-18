@@ -1,0 +1,100 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+#menu {
+	z-index: 2;
+	position: absolute;
+	color: white;
+	background-color: black;
+	font-family: consolas;
+}
+td {
+	padding: 10px;
+	margin: 10px;
+}
+td:hover {
+	background-color: green;
+}
+td:active {
+	background-color: lightgreen;
+}
+a:visited, a:link {
+	text-decoration: none;
+	color: white;
+}
+#canvas {
+	position: absolute;
+	font-family: consolas;
+	top: 44px;
+	width: 262px;
+	height: 200px;
+	background-color: blue;
+}
+#center {
+	text-align: center;
+}
+#calc {
+	display: none;
+}
+#popup {
+	display: none;
+}
+input[type="text"] {
+	text-align: center;
+}
+#confirm {
+	display: none;
+}
+#method {
+	background-color: black;
+	color: white;
+	width: 52.4px;
+	height: 50px;
+	border: 1px ridge gray;
+	margin-top: 24px;
+}
+#inc1 {
+	position: absolute;
+	width: 4px;
+	height: 20px;
+	top: 13px;
+	font-family: consolas;
+	left: 202px;
+	background-color: black;
+	border: none;
+	color: white;
+}
+#dec1 {
+	position: absolute;
+	width: 4px;
+	height: 20px;
+	top: 31px;
+	font-family: consolas;
+	left: 202px;
+	background-color: black;
+	border: none;
+	color: white;
+}
+#inc2 {
+	position: absolute;
+	width: 4px;
+	height: 20px;
+	font-family: consolas;
+	top: 55px;
+	left: 202px;
+	background-color: black;
+	border: none;
+	color: white;
+}
+#dec2 {
+	position: absolute;
+	width: 4px;
+	height: 20px;
+	font-family: consolas;
+	top: 73px;
+	left: 202px;
+	background-color: black;
+	border: none;
+	color: white;
+}
